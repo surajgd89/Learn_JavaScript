@@ -7,13 +7,13 @@
 
 // declare a variable 
 
-var firstName = "Harshit";
+var firstName = "Suraj";
 
 // use a variable 
 console.log(firstName);
 
 // change value 
 
-firstName = "Mohit";
+firstName = "Shreesha";
 
 console.log(firstName);
