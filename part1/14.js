@@ -1,31 +1,31 @@
-// if else condition 
+// if else condition
 
-// let age = 17;
+// let age = 19;
 
-// if(age>=18){
+// if (age >= 18) {
 //     console.log("User can play ddlc");
-// }else {
+// } else {
 //     console.log("User can play mario");
 // }
 
 // let num = 13;
 
-// if(num%2===0){
+// if (num % 2 === 0) {
 //     console.log("even");
-// }else{
+// } else {
 //     console.log("odd");
 // }
 
-// falsy values 
+// falsy values
 
 
 // false
 // ""
-// null 
+// null
 // undefined
 // 0
 
-// truthy 
+// truthy
 // "abc"
 // 1, -1
 
@@ -35,4 +35,10 @@
 //     console.log(firstName);
 // }else{
 //     console.log("firstName is kinda empty");
+// }
+
+// if (-1) {
+//     console.log("true");
+// } else {
+//     console.log("false");
 // }

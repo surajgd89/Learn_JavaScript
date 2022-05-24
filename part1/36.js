@@ -6,19 +6,5 @@
 
 // how to create objects 
 
-// const person = {name:"Harshit",age:22};
-const person = {
-    name: "harshit",
-    age: 22,
-    hobbies: ["guitar", "sleeping", "listening music"]
-}
-console.log(person);
-
-// how to access data from objects 
-// console.log(person["name"]);
-// console.log(person["age"]);
-// console.log(person.hobbies);
-
-// how to add key value pair to objects
-person["person"] = "male";
+const person = { name: "Suraj", email: "suraj.gd89@gmail.com", age: 32 }
 console.log(person);

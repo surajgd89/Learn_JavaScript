@@ -4,9 +4,10 @@
 // dry don't repeat yourself
 let i = 0; // 1 2 3 4
 
-while(i<=9){
+while (i <= 7) {
     console.log(i);
     i++;
 }
 console.log(`current value of i is ${i}`);
+
 console.log("hello");

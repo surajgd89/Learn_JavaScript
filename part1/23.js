@@ -2,9 +2,9 @@
 
 let total = 0;
 
-let num = 100;
+let num = 10;
 
-for(let i = 1; i<=num; i++){
+for (let i = 1; i <= num; i++) {
     total = total + i;
 }
 

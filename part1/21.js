@@ -1,10 +1,10 @@
 // while loop example 
-let num = 100;
+let num = 10;
 // let total = 0; //1 + 2 +3
 // let i = 0;
 
 
-// while(i<=100){
+// while (i <= 10) {
 //     total = total + i;
 //     i++;
 // }
@@ -12,5 +12,5 @@ let num = 100;
 
 // console.log(total);
 
-// let total = (num*(num+1))/2;
+// let total = (num * (num + 1)) / 2;
 // console.log(total);

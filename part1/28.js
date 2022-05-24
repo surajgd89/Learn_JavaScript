@@ -9,13 +9,14 @@
 // console.log("value is num2 is", num2);
 
 
-// reference types 
-// array 
-let array1 = ["item1", "item2"];
+// reference types
+// array
+let array1 = ["item01", "item02"];
 let array2 = array1;
 console.log("array1", array1);
 console.log("array2", array2);
-array1.push("item3");
-console.log("after pushing element to array 1");
+console.log("length", array1.length);
+array1.push("item03");
+// console.log("after pushing element to array 1");
 console.log("array1", array1);
 console.log("array2", array2);
