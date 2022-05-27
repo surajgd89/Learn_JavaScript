@@ -1,9 +1,9 @@
 // spread operator
 // const array1 = [1, 2, 3];
-// const array2 = [5, 6, 7];
+// const array2 = "SURAJ";
 
-// // const newArray = [...array1, ...array2, 89, 69];
-// const newArray = [..."123456789"];
+// const newArray = [...array1, ...array2, 89, 69];
+// const newArray = [...array2];
 // console.log(newArray);
 
 // spread operator in objects
@@ -19,5 +19,5 @@ const obj2 = {
 
 // const newObject = { ...obj2, ...obj1, key69: "value69" };
 // const newObject = { ...["item1", "item2"] };
-// const newObject = { ..."abcdefghijklmnopqrstuvwxyz" };
-// console.log(newObject);
+const newObject = { ..."abcdefghijklmnopqrstuvwxyz" };
+console.log(newObject["25"]);

@@ -1,45 +1,40 @@
-function singHappyBirthday(){
-    console.log("happy birthday to you ......");
-}
+//functions 
 
-function sumThreeNumbers(number1, number2, number3){
-    return number1 + number2 + number3;
-}
-
-
-
-// isEven
-// input : 1 number 
-// output : true , false 
-
-// function isEven(number){
-//     return number % 2 === 0;
+// function singHappyBirthday() {
+//     console.log("Happy Birthday to you");
 // }
 
-// console.log(isEven(4));
+// singHappyBirthday();
 
-// function 
-// input : string 
-// output: firstCharacter 
 
-// function firstChar(anyString){
-//     return anyString[0];
+// function sum(a, b) {
+//     return a + b;
 // }
 
-// console.log(firstChar("zbc"));
+// let total = sum(2, 3);
 
-// function 
-// input : array, target (number)
-// output: index of target if target present in array 
+// console.log(total);
 
-function findTarget(array, target){
-    for(let i = 0; i<array.length; i++){
-        if(array[i]===target){
+// function evenNum(num) {
+//     if (num % 2 === 0) {
+//         console.log("IsEven");
+//     } else {
+//         console.log("Isodd");
+//     }
+// }
+
+// evenNum(13);
+
+let array = [1, 3, 5, 7, 9];
+let number = 10;
+
+function findTarget(array, target) {
+    for (let i = 0; i < array.length; i++) {
+        if (target === array[i]) {
             return i;
         }
     }
     return -1;
 }
-const myArray = [1,3,8,90]
-const ans = findTarget(myArray, 4);
-console.log(ans);
+
+console.log(findTarget(array, number));

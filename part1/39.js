@@ -1,24 +1,26 @@
 // computed properties
 
-const key1 = "objkey1";
-const key2 = "objkey2";
+const key1 = "KeyFirst";
+const key2 = "KeySecond";
 
-const value1 = "myvalue1";
-const value2 = "myvalue2";
+const val1 = "ValueFirst";
+const val2 = "ValueSecond";
 
-// const obj = {
-//     objkey1 : "myvalue1",
-//     objkey2 : "myvalue2",
-// }
 
-// const obj = {
-//     [key1] : value1,
-//     [key2] : value2
-// }
+// const myObj = {};
 
-const obj = {};
+// myObj[key1] = val1;
+// myObj[key2] = val2;
 
-obj[key1] = value1;
-obj[key2] = value2;
-console.log(obj);
+// console.log(myObj);
+
+
+
+const myObj = {
+    [key1]: val1,
+    [key2]: val2
+}
+
+console.log(myObj);
+
 
